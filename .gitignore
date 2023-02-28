@@ -1,0 +1,12 @@
+# repo files and folders https://github.com/Starefossen/docker-github-pages
+assets/demo.gif
+onbuild/
+Dockerfile
+LICENSE
+update.sh
+
+# gitignore https://github.com/Starefossen/docker-github-pages
+_site/
+.sass-cache/
+
+screenshots
