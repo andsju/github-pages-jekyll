@@ -28,7 +28,7 @@ I terminalen kan du nu starta applikationen med kommandot
 
 Applikationen startar och du kommer att se att webbläsaren lyssnar på port 4000, och en lista över mappar och filer i projektet.   
 
-![image info](screenshots/guide-1.png)
+![image info](./screenshots/guide-1.png)
 
 ## Skapa en konfigurationfil
 [https://jekyllrb.com/docs/configuration/default/](https://jekyllrb.com/docs/configuration/default/)
