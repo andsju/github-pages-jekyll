@@ -1,7 +1,14 @@
 # GitHub Pages Jekyll
 
-En guide i hur du använder Jekyll static site generator. 
+## Static site generators
+En statisk sidgeneratorer är ett verktyg för att skapa enklare webbplatser saom är baserade på textfiler och olika mallar.   
+
+Det här är en guide i hur du använder **Jekyll** - ett av flera olika verktyg i gruppen **static site generators**.
+
 Börja med att klona ner följande git repo [clone git repo Starefossen/docker-github-pages](https://github.com/Starefossen/docker-github-pages).
+Git repot använder en Linux distribution som kallas Alpine. Alpine Linux är designad för att vara liten, och samtidigt enkel och säker. 
+
+När du har klonat ner repot så öppnar du mappen i Visaul Studio Code. I repot finns beskrivning av hur applikationen startas, I den här guiden används alternativet med en konfigurationsfil i YAML format - Docker compose.
 
 ## Använd docker compose
 För att starta applikationen skapar du en fil med namnet `docker-compose.yml`.
