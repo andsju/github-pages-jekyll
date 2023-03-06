@@ -1,7 +1,7 @@
 # GitHub Pages Jekyll
 
 ## Static site generators
-En statisk sidgeneratorer är ett verktyg för att skapa enklare webbplatser saom är baserade på textfiler och olika mallar.   
+En statisk sidgeneratorer är ett verktyg för att skapa enklare webbplatser baserat på textfiler och olika mallar.   
 
 Det här är en guide i hur du använder **Jekyll** - ett av flera olika verktyg i gruppen **static site generators**.
 
