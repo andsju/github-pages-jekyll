@@ -163,6 +163,19 @@ Den här sidans titel är {{page.title}} och webbplatsens titel är {{site.title
 
 Beroende på hur layout ska förändras på olika sidor kan du välja i vilken fil som exempelvis ett *header* eller *footer* element ska inkluderas. I layoutmallen `default.html` eller på sidan `index.md`.
 
+I guiden länkas *header* elementet nu in i layoutmallen (tas bort från `index.html`):
+
+```html
+<body>
+
+    {% include header.html%}
+
+    {{ content }}
+    
+</body>
+```
+
+
 
 ## Inkludera statiska filer
 Mappen `assets` används för att inkludera olika filer som ska länkas in eller visas på sidan, exempelvis stilmallar eller bilder.
@@ -195,6 +208,8 @@ Lägg till bilden i layoumallen (alternativt på startsidan eller i en inkludera
 ```html
 
 <body>
+
+    {% include header.html%}
 
     {{ content }}
     
