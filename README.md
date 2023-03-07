@@ -8,7 +8,7 @@ Det här är en guide i hur du använder **Jekyll** - ett av flera olika verktyg
 Börja med att klona ner följande git repo [clone git repo Starefossen/docker-github-pages](https://github.com/Starefossen/docker-github-pages).
 Git repot använder en Linux distribution som kallas Alpine. Alpine Linux är designad för att vara liten, och samtidigt enkel och säker. 
 
-När du har klonat ner repot så öppnar du mappen i Visaul Studio Code. I repot finns beskrivning av hur applikationen startas, I den här guiden används alternativet med en konfigurationsfil i YAML format - Docker compose.
+När du har klonat ner repot så öppnar du mappen i Visual Studio Code. I repot finns beskrivning av hur applikationen startas, I den här guiden används alternativet med en konfigurationsfil i YAML format - Docker compose.
 
 ## Använd docker compose
 För att starta applikationen skapar du en fil med namnet `docker-compose.yml`.
@@ -163,6 +163,19 @@ Den här sidans titel är {{page.title}} och webbplatsens titel är {{site.title
 
 Beroende på hur layout ska förändras på olika sidor kan du välja i vilken fil som exempelvis ett *header* eller *footer* element ska inkluderas. I layoutmallen `default.html` eller på sidan `index.md`.
 
+I guiden länkas *header* elementet nu in i layoutmallen (tas bort från `index.html`):
+
+```html
+<body>
+
+    {% include header.html%}
+
+    {{ content }}
+    
+</body>
+```
+
+
 
 ## Inkludera statiska filer
 Mappen `assets` används för att inkludera olika filer som ska länkas in eller visas på sidan, exempelvis stilmallar eller bilder.
@@ -195,6 +208,8 @@ Lägg till bilden i layoumallen (alternativt på startsidan eller i en inkludera
 ```html
 
 <body>
+
+    {% include header.html%}
 
     {{ content }}
     
