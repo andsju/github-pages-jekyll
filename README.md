@@ -174,10 +174,10 @@ En lämplig struktur i mappen `assets` kan se ut så här:
 ```md
 
 ├── assets
-├── css
-│   ├── style.css
-├── images
-│   ├── picture.png
+│   ├── css
+│   │   └── style.css
+│   ├── images
+│   │   └── picture.png
 
 ```
 
