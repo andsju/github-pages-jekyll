@@ -8,7 +8,7 @@ Det här är en guide i hur du använder **Jekyll** - ett av flera olika verktyg
 Börja med att klona ner följande git repo [clone git repo Starefossen/docker-github-pages](https://github.com/Starefossen/docker-github-pages).
 Git repot använder en Linux distribution som kallas Alpine. Alpine Linux är designad för att vara liten, och samtidigt enkel och säker. 
 
-När du har klonat ner repot så öppnar du mappen i Visaul Studio Code. I repot finns beskrivning av hur applikationen startas, I den här guiden används alternativet med en konfigurationsfil i YAML format - Docker compose.
+När du har klonat ner repot så öppnar du mappen i Visual Studio Code. I repot finns beskrivning av hur applikationen startas, I den här guiden används alternativet med en konfigurationsfil i YAML format - Docker compose.
 
 ## Använd docker compose
 För att starta applikationen skapar du en fil med namnet `docker-compose.yml`.
@@ -174,10 +174,10 @@ En lämplig struktur i mappen `assets` kan se ut så här:
 ```md
 
 ├── assets
-├── css
-│   ├── style.css
-├── images
-│   ├── picture.png
+│   ├── css
+│   │   └── style.css
+│   ├── images
+│   │   └── picture.png
 
 ```
 
